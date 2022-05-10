@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.10wallpaper.com/wallpaper/1366x768/1609/Netherlands_City_Rivers_Night-Europe_Travel_Pphotography_Wallpaper_1366x768.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sign-up-form {
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+    background: #fff;
+    padding: 40px 20px;
+    margin: 8% auto 0;
+    text-align: center;
+}
+
+.sign-up-form h1 {
+    color: darkred;
+    margin-bottom: 30px;
+}
+
+.input-box {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+
+.sign-up-form > check-box {
+    font-size: 12px;
+}
+
+button {
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.signup-btn {
+    background-color: darkred;
+}
+
+.twitter-btn {
+    background-color: #21afde;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}
+
+.signUp_ {
+    font-size: 13px;
+    color: dimgray;
+    padding-top: 14px;
+
+}
+
+img {
+    width: 70px;
+}
