@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>로그인 하기</title>
+    <link rel="stylesheet" href="../static/login.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src=".static/login.js"></script>
+
+    <script>
+        function login() {
+            let username = $('#id').val()
+            let password = $('#pw').val()
+
+            if (username == "") {
+                alert('아이디를 입력해주세요.')
+                $("#id").focus()
+                return;
+            } else {
+                $("#id").text("")
+            }
+
+            if (password == "") {
+                alert('비밀번호를 입력해주세요.')
+                $("#pw").focus()
+                return;
+            } else {
+                $("#pw").text("")
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="sign-up-form">
+    <h1>U.Luv</h1>
+    <form>
+        <input type="id" class="input-box" id="id" placeholder="아이디 또는 이메일">
+        <input type="password" class="input-box" id="pw" placeholder="비밀번호">
+        <p><span><input type="checkbox" class="check-box"></span>로그인 상태 유지</p>
+        <button onclick="login()" type="button" class="signup-btn">로그인</button>
+        <hr>
+        <div class="signUp_">
+            <a href="#">비밀번호찾기</a>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>
